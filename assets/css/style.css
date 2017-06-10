@@ -1,0 +1,103 @@
+body {
+  background-image: url(https://www.clipartsgram.com/image/924457080-whitebackground.jpg);
+  background-size: cover;
+  color:#4DCCC5;
+  font-family: 'Lato', sans-serif;
+}
+
+header{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+header > img{
+  width: 250px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+li:hover {
+  background-color:rgba(0, 0, 0, .05);
+}
+
+a {
+  text-decoration: none;
+}
+
+.carte_de_visite {
+  background: rgba(142, 142, 142, .05);
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  background-image: url('https://www.wizbii.com/profile/nihel-bemrah/avatar/large');
+  background-size: cover;
+  background-position: center;
+}
+
+.social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 50%;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 15px;
+  height: 15px;
+  margin:5px;
+  color:white;
+  background-color:#b3b3b3;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+}
+.btn-nanny{
+  background-color: #4DCCC5;
+  background-image: url('http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_630,w_1200,f_auto,q_90/v1/1131127/logo-fond_transparent_leqhvu.png');
+  background-size: cover;
+}
+.btn-download {
+	background-color:#e76464;
+	position:fixed;
+	bottom: 42px;
+	right:42px;
+	width:50px;
+	height:50px;
+	font-size:20pt;
+	transition:none;
+}
